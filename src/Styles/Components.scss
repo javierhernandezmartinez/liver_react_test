@@ -1,0 +1,29 @@
+.c_inputButton{
+  height: 40px;
+  border-radius: 5px;
+  font-size: 12pt;
+  margin-top: 0.5rem;
+}
+
+.c_inputText{
+  width: 100%;
+  height: 40px;
+  font-size: 12pt;
+}
+
+.title-input{
+  font-size: 12pt;
+  font-weight: 500;
+  margin: 0;
+  text-align: start;
+}
+
+.vacio{
+  border: solid 1px red;
+}
+
+@media (max-width: 500px) {
+  .p-button-label{
+    display: none;
+  }
+}
