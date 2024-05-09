@@ -49,12 +49,12 @@ const Home =()=>{
             <div className={'row'} style={{justifyContent: "center", width: '70vw'}}>
                 <Toast ref={toast} style={{width: "200px"}}/>
 
-                <div className={'col-sm-8 col-md-10 '}>
+                <div className={'col-sm-8 col-md-8'}>
                     <div className={'row'}>
                         <div className={'col-sm-12 col-md-12 '}>
-                            <p className={'titlePanel'}>Hola</p>
+                            <p className={'titlePanel'}>Hola!</p>
                         </div>
-                        <div className={'col-md-6'}>
+                        <div className={'col-md-12'}>
                             <div className={'row'}>
                                 <div className={'col-sm-12 col-md-12 '}>
                                     <InputText title={'Folio'}
@@ -85,7 +85,7 @@ const Home =()=>{
                                 </div>
                             </div>
                         </div>
-                        <div className={'col-md-6'} >
+                        <div className={'col-md-12'} >
                             <div className={'row'}  style={{height: "100%"}}>
                                 <div className={'col-12 col-sm-12 col-md-12'}>
                                     <div className={'div-panelText'}>

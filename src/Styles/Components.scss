@@ -4,6 +4,22 @@
   font-size: 12pt;
   margin-top: 0.5rem;
 }
+.p-button {
+  color: #ffffff;
+  background: transparent;
+  border: 1px solid rgba(255,255,255,0.5);
+  padding: 0.75rem 1.25rem;
+  font-size: 1rem;
+  transition: background-color 0.2s, color 0.2s, border-color 0.2s, box-shadow 0.2s;
+  border-radius: 6px;
+  .p-button-label{
+    margin-left: 5px;
+  }
+}
+.p-button:hover{
+  border: 1px solid whitesmoke;
+  background: #365975 !important;
+}
 
 .c_inputText{
   width: 100%;
